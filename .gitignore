@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build / generated
+build/
+dist/
+*.egg-info/
+*.log
+tmp/
+temp/
+
+# Local tools / IDE
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+credentials*
+secrets*
+
+# Proprietary / generated EDA outputs
+*.fsp
+*.lms
+*.ldev
+*.icp
+*.mat
+*.log
+*.bak
+
+# Large or externally sourced datasets
+data/raw/*
+!data/raw/.gitkeep
+data/imported/*
+!data/imported/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/results/*
+!data/results/.gitkeep
